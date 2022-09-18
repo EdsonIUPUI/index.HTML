@@ -1,0 +1,137 @@
+<body>
+
+    <header><p><h1> the header doesn't have a particular position applied, due to the header having the default positioning, making it static.</h1></p></header>
+
+    <nav><p><h3>Nav uses fixed positioning, fixed position goes into relative of the viewport. which uses top,right,left and bottom to position the elements.</h3></p></nav>
+
+    <div>
+
+        <div class="articles">
+
+            <article>The use of relative position can be seen on an article element, relative positioning refers as position of corresponding relative. which uses positions in order to avoid overlaps.</article>
+
+            <article></article>
+
+        </div>
+
+    <aside>Aside uses absolute positioning, absolute positioning helps with moving elements out of the way with the use of up, down, left, and right positioning.</aside>
+
+    </div>
+
+    <footer>The use of fixed element is used on the footer, fixed positioning is used specifically for the viewport, meaning that it would stay in the same place, the use of positioning helps in order to move the element</footer>
+    <style>
+
+        header {
+
+            width: 90%;
+
+            height: 100px;
+
+            background-color: #FF0DA9;
+
+            border: 3px solid green;
+
+            padding: 10px;
+
+            margin: 25px;
+            
+            color: white;
+
+        }
+
+
+
+        nav {
+
+            position: fixed;
+
+            width: 90%;
+
+            height: 50px;
+
+            background-color: #2355E8;
+
+            color:white;
+
+            position: fixed;
+
+            top: 170px;
+
+            left: 35px;
+            
+
+        }
+
+
+
+        article {
+
+            width: 65%;
+
+            height: 200px;
+
+            background-color: #00FF48;
+
+            border: 5px solid grey;
+
+            position: relative;
+
+            top: 15px;
+
+            color: black;
+
+        }
+
+
+
+        aside {
+
+            width: 40%;
+
+            height: 420px;
+
+            background-color: #EBD34C;
+
+            position: absolute;
+
+            left: 50%;
+
+            right: 10%;
+
+            top: 235px;
+
+        }
+
+
+
+        footer {
+
+            width: 100%;
+
+            height: 50px;
+
+            background-color: #FF4114;
+
+            position: fixed;
+
+            bottom: 0px;
+
+        }
+
+
+
+        .articles {
+
+            position: relative;
+
+            left: 30px;
+
+            top: 45px;
+
+            width: 65%;
+
+            height: 70%;
+
+        }
+
+    </style>
